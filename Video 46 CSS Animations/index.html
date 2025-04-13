@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations</title>
+    <style>
+        .container{
+            background-color: aliceblue;
+            width: 80vh;
+            height: 30vw;
+        }
+        .box{
+            background-color: red;
+            width: 34px;
+            height: 45px;
+            animation-name: harrykaAnimation;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0,0,0,0.96);
+            animation:
+        }
+        @keyframes harrykaAnimation{
+            form{ background-color: red;
+
+            }
+            to{ background-color: yellow;
+                transform: translateX(1000px);
+            } 
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Box</div> 
+       </div>
+</body>
+</html>

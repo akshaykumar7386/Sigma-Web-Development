@@ -1,0 +1,117 @@
+.logo img {
+    width: 164px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.right ul {
+    display: flex;
+    gap: 34px;
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right ul li span {
+    padding: 0 5px;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+    gap: 45px;
+    font-family: sans-serif;
+}
+.first span{
+    font-size: 40px;
+}
+
+section span img{
+    width:82px;
+    margin: 0 23px;
+}
+.first p {
+    font-size: 23px;
+    width: 70vw;
+    text-align: center;
+}
+.btn{
+    background-color:#00b6d1;
+    padding: 14px 16px;
+    border : none;
+    border-radius: 6px;
+    font-weight: 700;
+    color: white;
+    margin: 12px;
+    cursor: pointer;
+}
+
+.green{
+    background-color: #5cb85c;
+}
+.flex{
+    display: flex;
+}
+
+.small{
+    font-size: 12px;
+}
+.second{
+    max-width:90vw;
+    margin: auto;
+    
+    
+}
+
+.item{
+    padding: 23px;
+    background-color: whitesmoke;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    
+    
+
+    
+}
+.item-lang{
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 36px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+
+}
+.download :nth-child(2){
+    font-size: 23px;
+}
+
+.download{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: sans-serif;
+}
+
+.img{
+    width: 60px;
+    height: 60px;
+}

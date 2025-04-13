@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Object-fit and Object-cover</title>
+    <style>
+        .container {
+            height: 334px;
+            width: 388px;
+            border: 2px solid black;
+            background-color: aqua;
+        }
+
+        .img {
+            height:334px;
+            width: 388px;
+            /* object-fit: cover; */
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="img.jpg" alt="img" class="img">
+    </div>
+</body>
+</html>
